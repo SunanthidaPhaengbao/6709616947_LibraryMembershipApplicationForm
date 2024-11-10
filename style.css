@@ -54,3 +54,8 @@ button {
 button:hover {
     background-color: #d22db7;
 }
+
+.required {
+    color: red;
+    font-size: 18px;
+}
