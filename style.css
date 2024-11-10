@@ -64,3 +64,9 @@ input[type="checkbox"] {
     width: auto;
     margin-top: 0;
 }
+
+input[type="checkbox"] + label {
+    display: inline;
+    font-weight: normal;
+    font-size: 15px;
+}
