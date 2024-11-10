@@ -17,3 +17,8 @@ body {
     width: 100%;
     max-width: 500px;
 }
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
