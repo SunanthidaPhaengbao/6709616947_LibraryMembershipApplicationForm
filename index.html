@@ -35,6 +35,17 @@
 
             <label for="dob">วันเดือนปีเกิด <span class="required">*</span></label>
             <input type="date" id="dob" name="dob" required>
+
+            <label for="book-type">ประเภทของหนังสือที่สนใจ <span class="required">*</span></label>
+            <select id="book-type" name="book-type" required>
+                <option value="" disabled selected>เลือกประเภทหนังสือ</option>
+                <option value="fiction">นิยาย</option>
+                <option value="non-fiction">สารคดี</option>
+                <option value="reference">หนังสืออ้างอิง</option>
+                <option value="science">วิทยาศาสตร์</option>
+                <option value="arts">ศิลปะ</option>
+            </select>
+            
         </form>
     </div>
 </body>
