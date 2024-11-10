@@ -44,3 +44,9 @@ input:focus, select:focus {
     outline: none;
     border-color: #ff0000;
 }
+
+button {
+    background-color: #ff5ee4;
+    color: white;
+    cursor: pointer;
+}
