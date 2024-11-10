@@ -39,3 +39,8 @@ input, select, button {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #ff0000;
+}
